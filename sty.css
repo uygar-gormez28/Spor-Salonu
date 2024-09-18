@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark);
+  opacity: 0.8;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 3rem;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 1rem 2rem;
+  margin: 0 0.5px;
+  font-size: 22px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .brand {
+  font-weight: 400;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+}
+
+.navbar span {
+  color: var(--warning);
+}
+
+/* header */
+
+.main-header {
+  background-image: url("../img/salon resmi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.main-header * {
+  z-index: 5;
+}
+
+.main-header .content h1 {
+  font-size: 30px;
+}
+
+.main-header .content p {
+  font-size: 25px;
+}
+
+/* car */
+.card {
+  color: white;
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+/* teams/teacher */
+
+.teams img {
+  border-radius: 70%;
+}
+
+.teams img:hover {
+  opacity: 0.8;
+}
+
+/* about */
+
+#about {
+  color: white;
+}
+#about h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#about p {
+  margin: 2rem 0;
+}
+
+/* form */
+
+.concent-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.concent-form label {
+  display: flex;
+  margin-bottom: 5px;
+}
+.concent-form .form-kontrol {
+  margin-bottom: 1.5rem;
+}
+.concent-form input {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.concent-form .btn {
+  margin: 20px;
+}
+
+.concent h2 {
+  font-size: 40px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 190px;
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}
+
+.footer .social a {
+  padding: 16px;
+}
