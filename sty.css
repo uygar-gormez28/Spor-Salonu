@@ -212,3 +212,18 @@ img {
 .footer .social a {
   padding: 16px;
 }
+
+.demo-btn1-hover {
+  transition: 0.3s ease all;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  border-radius: 40%;
+  background-color: red;
+  color: white;
+}
+.demo-btn1-hover:hover {
+  color: rgb(226, 19, 70);
+  border-color: currentColor; /* Current Color = mevcut text rengi */
+  background-color: #fff;
+}
